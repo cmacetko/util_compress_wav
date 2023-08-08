@@ -25,14 +25,14 @@ No corpo da requisição, envie um Json semelhante ao Json abaixo:
 Nesta requisição precisamos preencher os campos:
 - **arquivo:** A url completa de onde o arquivo WAV esta localizado
 
-Em caso de **Falha** será retornado a causa na váriavel **Msg** com HttpCode **500**:
+Em caso de **Falha** será retornado a causa na variável **Msg** com HttpCode **500**:
 ```json
 {
 "Msg": "Url nao informada"
 }
 ```
 
-Em caso de **Sucesso** será retornado o arquivo, em base64, na váriavel **Arquivo** e o **Tamanho Original** e o **Tamanho Resultado** com HttpCode **200**:
+Em caso de **Sucesso** será retornado o arquivo, em base64, na variável **Arquivo** e o **Tamanho Original** e o **Tamanho Resultado** com HttpCode **200**:
 ```json
 {
 "TamanhoOrigem": "1016 KB",
